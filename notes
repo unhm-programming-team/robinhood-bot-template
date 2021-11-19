@@ -1,0 +1,9 @@
+Notes
+-----
+
+
+Documentation
+-------------
+
+- Explain about adding dependencies to setup.py so that anyone who clones the repo can quickly add the dependencies
+ - requirements.txt : https://www.jetbrains.com/help/pycharm/managing-dependencies.html
