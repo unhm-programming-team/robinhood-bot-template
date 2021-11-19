@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e02138-7bba-4c69-826a-eca6e79843ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sphinx-source/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sphinx-source/index.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.buildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_static/pygments.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_static/pygments.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document.bat" beforeDir="false" afterPath="$PROJECT_DIR$/document.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sphinx-source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sphinx-source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sphinx-source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/sphinx-source/index.rst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />

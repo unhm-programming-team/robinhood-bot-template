@@ -6,10 +6,13 @@
 Welcome to robinhood-bot's documentation!
 =========================================
 
+A framework for stock trading.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   modules
 
 
 Indices and tables

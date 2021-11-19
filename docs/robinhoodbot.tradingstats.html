@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>robinhoodbot.tradingstats module &mdash; robinhood-bot 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="robinhoodbot.misc module" href="robinhoodbot.misc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> robinhood-bot
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <figcaption>
+<p><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">robinhoodbot</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="robinhoodbot.html">robinhoodbot package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="robinhoodbot.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="robinhoodbot.bot.html">robinhoodbot.bot module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="robinhoodbot.config.html">robinhoodbot.config module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="robinhoodbot.misc.html">robinhoodbot.misc module</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">robinhoodbot.tradingstats module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="robinhoodbot.html#module-robinhoodbot">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">robinhood-bot</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">robinhoodbot</a> &raquo;</li>
+        
+          <li><a href="robinhoodbot.html">robinhoodbot package</a> &raquo;</li>
+        
+      <li>robinhoodbot.tradingstats module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/robinhoodbot.tradingstats.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="module-robinhoodbot.tradingstats">
+<span id="robinhoodbot-tradingstats-module"></span><h1>robinhoodbot.tradingstats module<a class="headerlink" href="#module-robinhoodbot.tradingstats" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="robinhoodbot.tradingstats.get_total_gains_minus_dividends">
+<code class="sig-prename descclassname"><span class="pre">robinhoodbot.tradingstats.</span></code><code class="sig-name descname"><span class="pre">get_total_gains_minus_dividends</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.tradingstats.get_total_gains_minus_dividends" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the amount of money you’ve gained/lost through trading since the creation of your account, minus dividends</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="robinhoodbot.tradingstats.read_trade_history">
+<code class="sig-prename descclassname"><span class="pre">robinhoodbot.tradingstats.</span></code><code class="sig-name descname"><span class="pre">read_trade_history</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.tradingstats.read_trade_history" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads data about previous trades from JSON file and prints it out</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>file_name(str): name of the file we are reading from. Should be “tradehistory.txt” by default</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="robinhoodbot.tradingstats.update_trade_history">
+<code class="sig-prename descclassname"><span class="pre">robinhoodbot.tradingstats.</span></code><code class="sig-name descname"><span class="pre">update_trade_history</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">symbols</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holdings_data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file_name</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.tradingstats.update_trade_history" title="Permalink to this definition">¶</a></dt>
+<dd><dl>
+<dt>Writes data about a trade to a JSON file, containing the sell date, buy date,</dt><dd><p>price at which the stock was bought and sold at, etc.</p>
+</dd>
+<dt>Args:</dt><dd><p>symbols(list): List of strings, strings are the symbols of the stocks we’ve just sold and want to write data for.
+holdings_data(dict): dict obtained from get_modified_holdings() method. We need this method rather than r.build_holdings() to get a stock’s buying date
+file_name(str): name of the file we are writing the data to. Should be “tradehistory.txt” if this method is normally called by scan_stocks().</p>
+<blockquote>
+<div><p>If you want to write to another file, create a new text file with two empty brackets with an empty line between them, to meet JSON formatting standards.</p>
+</div></blockquote>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="robinhoodbot.misc.html" class="btn btn-neutral float-left" title="robinhoodbot.misc module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, brobbins, unhm-programming-team.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
