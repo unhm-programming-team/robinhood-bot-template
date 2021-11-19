@@ -2,6 +2,7 @@ import robin_stocks.robinhood as r
 import pandas as pd
 import json
 
+
 def update_trade_history(symbols, holdings_data, file_name):
     """ Writes data about a trade to a JSON file, containing the sell date, buy date,
         price at which the stock was bought and sold at, etc.
@@ -21,6 +22,7 @@ def update_trade_history(symbols, holdings_data, file_name):
     with open(file_name, 'w') as outfile:
         json.dump(data, outfile)
 
+
 def read_trade_history(file_name):
     """ Reads data about previous trades from JSON file and prints it out
 
@@ -35,6 +37,7 @@ def read_trade_history(file_name):
             quantity, price, change, percent, bought_at = str(int(float(dict.get("quantity")))), dict.get("price"), dict.get("equity_change"), dict.get("percent_change"), dict.get("bought_at")
             print("\tSold " + quantity + " shares of "+ symbol + " at " + price + ", " + change + " (" +
                 percent + "%) profit/loss, bought on " + bought_at)
+
 
 def get_total_gains_minus_dividends():
     """ Returns the amount of money you've gained/lost through trading since the creation of your account, minus dividends
