@@ -4,9 +4,9 @@ import numpy as np
 import ta as ta
 from pandas.plotting import register_matplotlib_converters
 from ta import *
-from misc import *
-from tradingstats import *
-from config import *
+from .misc import *
+from .tradingstats import *
+from .config import *
 import sys
 import time
 import csv
@@ -243,5 +243,4 @@ class RobinhoodBot:
         print("----- Scan over -----\n")
         if debug:
             print("----- DEBUG MODE -----\n")
-
 

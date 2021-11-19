@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e02138-7bba-4c69-826a-eca6e79843ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/robinhoodbot/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robinhoodbot/US_LIST_OF_SYMBOLS.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robinhoodbot/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robinhoodbot/bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robinhoodbot/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robinhoodbot/tradehistory.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/robinhoodbot/tradingstats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/test-import.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/US_LIST_OF_SYMBOLS.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/filtered_stocks.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/misc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/tradehistory.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robinhoodbot/tradingstats.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robinhoodbot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robinhoodbot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/robinhoodbot/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/robinhoodbot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/robinhoodbot/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test-import.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test-import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,35 +43,16 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/test-import.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/robinhoodbot" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karlm\Documents\Actual Documents\2021 Spring\Programming Club\Projects\robinhood pull requirements test\robinhood-bot-template\src\testPackage" />
       <recent name="C:\Users\karlm\Documents\Actual Documents\2021 Spring\Programming Club\Projects\robinhood pull requirements test\robinhood-bot-template\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test packaging of robinhood bot">
-    <configuration name="run main.py" type="PythonConfigurationType" factoryName="Python">
-      <module name="robinhood-bot-template" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\karlm\.virtualenvs\PycharmProjects\robinhood-bot-template\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/robinhoodbot" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\karlm\Documents\Actual Documents\2021 Spring\Programming Club\Projects\robinhood pull requirements test\robinhood-bot-template\src\robinhoodbot\bot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="test packaging of robinhood bot" type="PythonConfigurationType" factoryName="Python">
       <module name="robinhood-bot-template" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,10 +74,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.run main.py" />
-      <item itemvalue="Python.test packaging of robinhood bot" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
