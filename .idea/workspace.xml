@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e02138-7bba-4c69-826a-eca6e79843ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/document.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sphinx-source/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sphinx-source/index.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes" beforeDir="false" afterPath="$PROJECT_DIR$/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robinhoodbot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robinhoodbot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/robinhoodbot/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/robinhoodbot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/robinhoodbot/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test-import.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test-import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/robinhoodbot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +52,16 @@
       <recent name="C:\Users\karlm\Documents\Actual Documents\2021 Spring\Programming Club\Projects\robinhood pull requirements test\robinhood-bot-template\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Batch.document">
+    <configuration name="document" type="BatchConfigurationType" factoryName="Batch">
+      <module name="robinhood-bot-template" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/document.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test packaging of robinhood bot" type="PythonConfigurationType" factoryName="Python">
       <module name="robinhood-bot-template" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +83,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Batch.document" />
+      <item itemvalue="Python.test packaging of robinhood bot" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
