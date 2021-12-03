@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>robinhoodbot.bot module &mdash; robinhood-bot 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="robinhoodbot.config module" href="robinhoodbot.config.html" />
+    <link rel="prev" title="robinhoodbot package" href="robinhoodbot.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> robinhood-bot
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <figcaption>
+<p><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">robinhoodbot</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="robinhoodbot.html">robinhoodbot package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="robinhoodbot.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">robinhoodbot.bot module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="robinhoodbot.config.html">robinhoodbot.config module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="robinhoodbot.misc.html">robinhoodbot.misc module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="robinhoodbot.tradingstats.html">robinhoodbot.tradingstats module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="robinhoodbot.html#module-robinhoodbot">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">robinhood-bot</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">robinhoodbot</a> &raquo;</li>
+        
+          <li><a href="robinhoodbot.html">robinhoodbot package</a> &raquo;</li>
+        
+      <li>robinhoodbot.bot module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/robinhoodbot.bot.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <section id="module-robinhoodbot.bot">
+<span id="robinhoodbot-bot-module"></span><h1>robinhoodbot.bot module<a class="headerlink" href="#module-robinhoodbot.bot" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="robinhoodbot.bot.RobinhoodBot">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">robinhoodbot.bot.</span></code><code class="sig-name descname"><span class="pre">RobinhoodBot</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">username</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.buy_holdings">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">buy_holdings</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">buys</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">profile_data</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holdings_data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.buy_holdings" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Places orders to buy holdings of stocks. This method will try to order</dt><dd><p>an appropriate amount of shares such that your holdings of the stock will
+roughly match the average for the rest of your portfoilio. If the share
+price is too high considering the rest of your holdings and the amount of
+buying power in your account, it will not order any shares.</p>
+</dd>
+<dt>Args:</dt><dd><p>buys(list): List of strings, the strings are the symbols of stocks we want to buy
+symbol(str): Symbol of the stock we want to sell
+holdings_data(dict): dict obtained from r.build_holdings() or get_modified_holdings() method</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.buy_strategy">
+<code class="sig-name descname"><span class="pre">buy_strategy</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">symbol</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.buy_strategy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Here You can implement your buy strategy.
+:param symbol:
+:return:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.five_year_check">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">five_year_check</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">stock_ticker</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.five_year_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>Figure out if a stock has risen or been created within the last five years.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>stock_ticker(str): Symbol of the stock we’re querying</p>
+</dd>
+<dt>Returns:</dt><dd><p>True if the stock’s current price is higher than it was five years ago, or the stock IPO’d within the last five years
+False otherwise</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.get_historicals">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">get_historicals</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ticker</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">intervalArg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'hour'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">spanArg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'week'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundsArg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'regular'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.get_historicals" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ticker</strong> – String: Stock ticker. Ex: “APPL”</p></li>
+<li><p><strong>intervalArg</strong> – interval to retrieve data for. Values are ‘5minute’, ‘10minute’, ‘hour’, ‘day’, ‘week’. Default is ‘hour’.</p></li>
+<li><p><strong>spanArg</strong> – Sets the range of the data to be either ‘day’, ‘week’, ‘month’, ‘3month’, ‘year’, or ‘5year’. Default is ‘week’.</p></li>
+<li><p><strong>boundsArg</strong> – Represents if graph will include extended trading hours or just regular trading hours. Values are ‘extended’, ‘trading’, or ‘regular’. Default is ‘regular’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>[list] Returns a list of dictionaries where each dictionary is for a different time.</p>
+</dd>
+</dl>
+<p>If multiple stocks are provided the historical data is listed one after another.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.get_modified_holdings">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">get_modified_holdings</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.get_modified_holdings" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Retrieves the same dictionary as r.build_holdings, but includes data about</dt><dd><p>when the stock was purchased, which is useful for the read_trade_history() method
+in tradingstats.py</p>
+</dd>
+<dt>Returns:</dt><dd><p>the same dict from r.build_holdings, but with an extra key-value pair for each
+position you have, which is ‘bought_at’: (the time the stock was purchased)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.get_portfolio_symbols">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">get_portfolio_symbols</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.get_portfolio_symbols" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns: the symbol for each stock in your portfolio as a list of strings. Ex” [‘APPL’, …]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.get_position_creation_date">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">get_position_creation_date</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">symbol</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holdings_data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.get_position_creation_date" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the time at which we bought a certain stock in our portfolio</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>symbol(str): Symbol of the stock that we are trying to figure out when it was bought
+holdings_data(dict): dict returned by r.get_open_stock_positions()</p>
+</dd>
+<dt>Returns:</dt><dd><p>A string containing the date and time the stock was bought, or “Not found” otherwise</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.get_ticker_list">
+<code class="sig-name descname"><span class="pre">get_ticker_list</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.get_ticker_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>getter for self.ticker_list. Tickers from filtered_stocks.txt
+:return: List: list where each element is a string representing a ticker. Ex: [‘ABNB’, ‘AAPL’…]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.safe_division">
+<code class="sig-name descname"><span class="pre">safe_division</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">numerator</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">denominator</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.safe_division" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Number: numerator divided by denominator unless denominator is 0, in which case return 0.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.scan_stocks">
+<code class="sig-name descname"><span class="pre">scan_stocks</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.scan_stocks" title="Permalink to this definition">¶</a></dt>
+<dd><p>The main method. Sells stocks in your portfolio if they meet your strategy. Buys a stock if it .</p>
+<p>If you sell a stock, this updates tradehistory.txt with information about the position,
+how much you’ve earned/lost, etc.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.sell_holdings">
+<em class="property"><span class="pre">static</span> </em><code class="sig-name descname"><span class="pre">sell_holdings</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">symbol</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holdings_data</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.sell_holdings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Place an order to sell all holdings of a stock.</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>symbol(str): Symbol of the stock we want to sell
+holdings_data(dict): dict obtained from get_modified_holdings() method</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="robinhoodbot.bot.RobinhoodBot.sell_strategy">
+<code class="sig-name descname"><span class="pre">sell_strategy</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">symbol</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#robinhoodbot.bot.RobinhoodBot.sell_strategy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Here you can Implement your sell strategy
+:param symbol:
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="robinhoodbot.config.html" class="btn btn-neutral float-right" title="robinhoodbot.config module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="robinhoodbot.html" class="btn btn-neutral float-left" title="robinhoodbot package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, brobbins, unhm-programming-team.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

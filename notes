@@ -1,0 +1,18 @@
+Notes
+-----
+
+
+Documentation
+-------------
+
+- Explain about adding dependencies to setup.py so that anyone who clones the repo can quickly add the dependencies
+ - requirements.txt : https://www.jetbrains.com/help/pycharm/managing-dependencies.html
+
+
+Packaging
+---------
+
+Changed the structure of robinhoodbot so it's a package
+
+A file that runs it needs to import it, or import parts of it, needs to use relative import syntax.
+For example, instead of `import misc` it should be `from . import misc`
