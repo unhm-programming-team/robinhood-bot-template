@@ -3,3 +3,4 @@ numpy~=1.21.4
 ta~=0.7.0
 robin-stocks~=2.1.0
 matplotlib~=3.5.0
+requests~=2.26.0
