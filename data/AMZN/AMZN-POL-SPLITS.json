@@ -1,0 +1,1 @@
+{"status": "OK", "count": 3, "results": [{"ticker": "AMZN", "exDate": "1999-09-02", "paymentDate": "1999-09-02", "ratio": 0.5}, {"ticker": "AMZN", "exDate": "1999-01-05", "paymentDate": "1999-01-05", "ratio": 0.3333333333333333}, {"ticker": "AMZN", "exDate": "1998-06-02", "paymentDate": "1998-06-02", "ratio": 0.5}]}
