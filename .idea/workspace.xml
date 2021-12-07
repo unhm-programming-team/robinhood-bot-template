@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57e02138-7bba-4c69-826a-eca6e79843ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/run-gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retriever/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retriever/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/retriever/retriever.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/.buildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.buildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_static/pygments.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_static/pygments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document.bat" beforeDir="false" afterPath="$PROJECT_DIR$/document.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sphinx-source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sphinx-source/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sphinx-source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/sphinx-source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,7 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/run-gui.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +53,7 @@
       <recent name="C:\Users\karlm\Documents\Actual Documents\2021 Spring\Programming Club\Projects\robinhood pull requirements test\robinhood-bot-template\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Batch.document">
+  <component name="RunManager" selected="Python.run retriever gui">
     <configuration name="document" type="BatchConfigurationType" factoryName="Batch">
       <module name="robinhood-bot-template" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,6 +61,27 @@
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/document.bat" />
       <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run retriever gui" type="PythonConfigurationType" factoryName="Python">
+      <module name="robinhood-bot-template" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\karlm\.virtualenvs\PycharmProjects\robinhood-bot-template\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run-gui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="test packaging of robinhood bot" type="PythonConfigurationType" factoryName="Python">
@@ -92,6 +107,7 @@
     </configuration>
     <list>
       <item itemvalue="Batch.document" />
+      <item itemvalue="Python.run retriever gui" />
       <item itemvalue="Python.test packaging of robinhood bot" />
     </list>
   </component>
